@@ -1,4 +1,20 @@
 require 'open-uri'
-require ''
+require 'net/http'
+require 'json'
+
+
+
 class GetRequester
+  attr_accessor :url
+  
+  def initialize(url)
+    @url=url
+  end
+  
+  def get_response
+  end
+
+  def parse_json
+  end
+
 end
