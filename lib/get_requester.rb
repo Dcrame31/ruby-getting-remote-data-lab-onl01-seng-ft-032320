@@ -5,13 +5,16 @@ require 'json'
 
 
 class GetRequester
-  attr_accessor :url
+  attr_accessor :string_url
   
-  def initialize(url)
-    @url=url
+  url
+  
+  def initialize(string_url)
+    @string_url= string_url
   end
   
   def get_response
+    
   end
 
   def parse_json
