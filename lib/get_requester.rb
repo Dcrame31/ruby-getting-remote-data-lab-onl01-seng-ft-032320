@@ -13,7 +13,7 @@ class GetRequester
   end
   
   def get_response
-    @string_url = 
+    
   end
 
   def parse_json
